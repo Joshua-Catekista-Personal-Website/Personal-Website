@@ -13,3 +13,11 @@ img.bg {
   top: 0;
   left: 0;
 }
+
+header {
+  background-color: white;
+  opacity: 30%;
+  align-content: center;
+  margin: 10px;
+  padding: 10px;
+}
