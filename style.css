@@ -1,0 +1,15 @@
+html {
+  background: url(https://github.com/Joshua-Catekista-Personal-Website/Personal-Website/blob/main/Files/784382.jpg?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
