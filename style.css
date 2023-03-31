@@ -313,6 +313,9 @@ figure.left {
 #contentinfo {
   padding-bottom: 2em;
   text-align: center;
+  background-color: whitesmoke;
+  filter: opacity(65%);
+  border-radius: 10px;
 }
 
 /*
