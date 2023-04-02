@@ -263,13 +263,13 @@ figure.left {
 
 #featured figure {
   border: 2px solid #eee;
-  float: right;
-  margin: 0.786em 2em 0 5em;
+  float: left;
+  margin: 0em 0em 0em 0em;
   width: 50vh;
 }
 #featured figure img {
   display: block;
-  float: right;
+  float: left;
 }
 
 #featured h2 {
@@ -357,4 +357,5 @@ figure.left {
 
 figure {
   margin: 0;
+  align-content: center;
 }
