@@ -14,7 +14,7 @@ body {
   line-height: 1.429;
   margin: 0;
   padding: 0;
-  text-align: left;
+  text-align: center;
 }
 
 /* Headings */
@@ -355,7 +355,9 @@ figure.left {
   width: 175px;
 }
 
-figure {
+iframe {
   margin: 0;
   align-content: center;
+  filter: opacity(100);
+  fill-opacity: inherit;
 }
