@@ -127,7 +127,7 @@ blockquote {
 /* Tables */
 table {
   margin: 0.5em auto 1.5em auto;
-  width: 100vh;
+  width: 98%;
 }
 
 /* Thead */
@@ -151,7 +151,7 @@ figure {
 .body {
   clear: both;
   margin: 0 auto;
-  width: 80vh;
+  width: 800px;
 }
 img.right figure.right {
   float: right;
@@ -159,7 +159,7 @@ img.right figure.right {
 }
 img.left,
 figure.left {
-  float: left;
+  float: right;
   margin: 0 0 2em 2em;
 }
 
@@ -183,7 +183,7 @@ figure.left {
   font-weight: bold;
   margin: 0 0 0.6em 0.2em;
   text-decoration: none;
-  width: 50vh;
+  width: 427px;
 }
 #banner h1 a:hover,
 #banner h1 a:active {
@@ -206,7 +206,7 @@ figure.left {
   margin: 0 auto 2em auto;
   padding: 0;
   text-align: center;
-  width: 80vh;
+  width: 800px;
 
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -216,7 +216,7 @@ figure.left {
 #banner nav ul {
   list-style: none;
   margin: 0 auto;
-  width: 80vh;
+  width: 800px;
 }
 #banner nav li {
   float: left;
@@ -260,7 +260,7 @@ figure.left {
   margin-bottom: 2em;
   overflow: hidden;
   padding: 20px;
-  width: 75vhx;
+  width: 760px;
 
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -269,20 +269,19 @@ figure.left {
 
 #featured figure {
   border: 2px solid #eee;
-  float: left;
-  margin: 0em 0em 0em 0em;
-  width: 50vh;
+  float: right;
+  margin: 0.786em 2em 0 5em;
+  width: 248px;
 }
 #featured figure img {
   display: block;
-  float: left;
+  float: right;
 }
 
 #featured h2 {
-  color: rgb(43, 90, 128);
+  color: #c74451;
   font-size: 1.714em;
   margin-bottom: 0.333em;
-  text-align: center;
 }
 #featured h3 {
   font-size: 1.429em;
@@ -307,7 +306,7 @@ figure.left {
   margin-bottom: 2em;
   overflow: hidden;
   padding: 20px 20px;
-  width: 70vh;
+  width: 760px;
 
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -320,9 +319,6 @@ figure.left {
 #contentinfo {
   padding-bottom: 2em;
   text-align: center;
-  background-color: whitesmoke;
-  filter: opacity(65%);
-  border-radius: 10px;
 }
 
 /*
@@ -359,11 +355,4 @@ figure.left {
 #extras .social {
   float: right;
   width: 175px;
-}
-
-iframe {
-  margin: 0;
-  align-content: center;
-  filter: opacity(100);
-  fill-opacity: inherit;
 }
