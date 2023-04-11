@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+  article {
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #000000
+    url("https://github.com/Joshua-Catekista-Personal-Website/Personal-Website/blob/main/Files/China-Walls.jpg?raw=true");
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000305;
+  font-size: 87.5%; /* Base font size: 14px */
+  font-family: "Trebuchet MS", Trebuchet, "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.429;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 4vh;
+  background-color: dodgerblue;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-item:hover a {
+  color: rgb(210, 216, 99);
+}
