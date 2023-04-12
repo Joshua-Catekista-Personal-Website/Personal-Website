@@ -32,9 +32,44 @@ body {
   font-family: "Trebuchet MS", Trebuchet, "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.429;
-  margin: 0;
   padding: 0;
   text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  min-height: 88vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: white;
+  border: dodgerblue solid 5px;
+  opacity: 50%;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+  min-height: 80vh;
+  width: 35%;
+  border: dodgerblue dashed 2px;
+  margin: 10px 10px 10px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  min-height: 80vh;
+  width: 65%;
+  border: dodgerblue dashed 2px;
+  margin: 10px 10px 10px 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
@@ -70,4 +105,15 @@ nav {
 
 .nav-item:hover a {
   color: rgb(210, 216, 99);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 4vh;
+  background-color: dodgerblue;
+  padding-left: 30px;
+  padding-right: 10px;
 }
