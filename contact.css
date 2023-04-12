@@ -1,0 +1,179 @@
+body {
+  background: #000000
+    url("https://github.com/Joshua-Catekista-Personal-Website/Personal-Website/blob/main/Files/China-Walls.jpg?raw=true");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+#banner {
+  margin: 0 auto;
+  padding: 2.5em 0 0 0;
+}
+#banner h1 {
+  font-size: 3.571em;
+  line-height: 0.6;
+}
+#banner h1 a:link,
+#banner h1 a:visited {
+  color: #000305;
+  display: block;
+  font-weight: bold;
+  margin: 0 0 0.6em 0.2em;
+  text-decoration: none;
+  width: 427px;
+}
+#banner h1 a:hover,
+#banner h1 a:active {
+  background: none;
+  color: #c74350;
+  text-shadow: none;
+}
+
+#banner h1 strong {
+  font-size: 0.36em;
+  font-weight: normal;
+}
+
+/* Main Nav */
+#banner nav {
+  display: flex;
+  background: #000305;
+  font-size: 1.143em;
+  height: 40px;
+  line-height: 30px;
+  margin: 0 auto 2em auto;
+  padding: 0;
+  text-align: center;
+  width: 800px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#banner nav ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 800px;
+}
+#banner nav li {
+  float: left;
+  display: flex;
+  margin: 0;
+}
+
+#banner nav a:link,
+#banner nav a:visited {
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  padding: 5px 1.5em;
+  text-decoration: none;
+}
+#banner nav a:hover,
+#banner nav a:active,
+#banner nav .active a:link,
+#banner nav .active a:visited {
+  background: #c74451;
+  color: #fff;
+  text-shadow: none !important;
+}
+
+#banner nav li:first-child a {
+  border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+}
+.contact-section {
+  background: #bdc3c7;
+  opacity: 80%;
+  padding: 30px 0 50px 0;
+  text-align: center;
+}
+.h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 880px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.32);
+  text-align: left;
+  padding: 10px 0;
+}
+.subject,
+.message {
+  width: 80%;
+  margin: 0 auto;
+  label {
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-family: "Varela Round";
+  }
+}
+.id {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 80%;
+  margin: 0 auto;
+}
+.name,
+.email {
+  display: inline-block;
+  width: 45%;
+  label {
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-family: "Varela Round";
+  }
+  input[name="email"],
+  input[name="name"] {
+    width: 100%;
+    height: 40px;
+  }
+}
+.subject {
+  height: 62px;
+  input[name="subject"] {
+    width: 100%;
+    height: 40px;
+  }
+}
+.message {
+  textarea {
+    width: 100%;
+    resize: none;
+  }
+}
+button {
+  margin: 0;
+  float: right;
+  background: #e74c3c;
+  padding: 8px 77px;
+  border: 1px solid #e74c3c;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  font-family: "Varela Round";
+  transition: all 0.3;
+  &:hover {
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+  }
+}
