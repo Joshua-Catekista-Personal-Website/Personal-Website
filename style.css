@@ -275,7 +275,6 @@ figure.left {
 }
 #featured figure img {
   display: block;
-  float: right;
 }
 
 #featured h2 {
